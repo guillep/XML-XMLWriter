@@ -1,1 +1,1 @@
-Package { #name : #BaselineOfXMLWriter }
+Package { #name : 'BaselineOfXMLWriter' }

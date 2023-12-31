@@ -2,15 +2,17 @@
 A baseline for XML writer for Pharo [https://github.com/pharo-contributions/XML-XMLWriter](https://github.com/pharo-contributions/XML-XMLWriter)
 "
 Class {
-	#name : #BaselineOfXMLWriter,
-	#superclass : #BaselineOf,
-	#category : #'BaselineOfXMLWriter-Base'
+	#name : 'BaselineOfXMLWriter',
+	#superclass : 'BaselineOf',
+	#category : 'BaselineOfXMLWriter-Base',
+	#package : 'BaselineOfXMLWriter',
+	#tag : 'Base'
 }
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 BaselineOfXMLWriter >> baseline: spec [
 	<baseline>
-	
+	1halt.
 	spec 
 		for: #common
 		do: [ 
@@ -42,7 +44,7 @@ BaselineOfXMLWriter >> baseline: spec [
 				package: 'XML-Writer-GemstoneCompatibility' with: [ spec requires: 'XML-Writer-Core' ]]	
 ]
 
-{ #category : #prerequisites }
+{ #category : 'prerequisites' }
 BaselineOfXMLWriter >> orderPreservingDictionaryOn: spec [
 
 	spec
